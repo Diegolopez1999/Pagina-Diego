@@ -1,0 +1,94 @@
+html {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #8FBC8B;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+.my-button {
+    background-color: #34b6b6;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32mpx;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+    
+}
+
+.my-button:hover {
+    background-color:aquamarine
+}
+
+.two-button {
+    background-color: #d3ff36;
+    border-radius: 8px;
+    color: Black;
+    padding: 15px 32mpx;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.two-button:hover {
+    background-color:aquamarine
+}
+
+ul {
+    background-color: #696969;
+    color: white;
+    list-style-type: none;   
+
+}
+
+body{
+    background-color: #efefef;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    display: block;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 5px;
+    width:300px;
+}
+
+.headermenu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color:#04AA6D;
+    padding: 10px;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
